@@ -11,7 +11,7 @@ struct RandomTextProvider {
     
     // TODO: Write tests for this
     static func randomLine() -> String {
-        "SORRY, NOT IMPLEMENTED YET"
+        Int.random(in: Int.min ... Int.max).description
     }
     
 }
