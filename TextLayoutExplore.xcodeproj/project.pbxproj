@@ -40,9 +40,22 @@
 		615ED8682D50891D007A46B6 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		61C8D5732D56A83E0065FF13 /* Exceptions for "TextLayoutExplore" folder in "TextLayoutExploreTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				RandomTextProvider.swift,
+			);
+			target = 615ED8422D50873B007A46B6 /* TextLayoutExploreTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		615ED8352D508738007A46B6 /* TextLayoutExplore */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				61C8D5732D56A83E0065FF13 /* Exceptions for "TextLayoutExplore" folder in "TextLayoutExploreTests" target */,
+			);
 			path = TextLayoutExplore;
 			sourceTree = "<group>";
 		};
