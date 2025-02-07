@@ -10,7 +10,7 @@ import Foundation
 struct RandomTextProvider {
     
     // TODO: Write tests for this
-    func randomLine() -> String {
+    static func randomLine() -> String {
         "SORRY, NOT IMPLEMENTED YET"
     }
     
