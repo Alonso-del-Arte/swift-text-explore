@@ -9,8 +9,14 @@ import Testing
 
 struct RandomTextProviderTests {
 
-    @Test func <#test function name#>() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test func testRandomLine() {
+        let numberOfCalls = Int.random(in: 5...25)
+        let minimum = 3 * numberOfCalls / 5
+        var lines: Set<String> = Set()
+        for _ in 1 ... numberOfCalls {
+            lines.insert(RandomTextProvider.randomLine())
+        }
+        #expect(lines.count >= minimum)
     }
 
 }
